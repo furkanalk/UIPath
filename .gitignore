@@ -1,0 +1,15 @@
+# Ignore all files and folders
+*
+
+# But don’t ignore these:
+!*.xaml
+!project.json
+!assets/
+!assets/**
+!tests/
+!tests/**
+!workflows/
+!workflows/**
+
+# Keep the .gitignore itself
+!.gitignore
