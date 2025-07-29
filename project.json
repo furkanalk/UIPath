@@ -1,10 +1,13 @@
 {
-  "name": "Session_2_Input_Output",
-  "projectId": "33404a2b-c28d-4a32-941a-9dc8e8edb537",
-  "description": "Input and output practice.",
+  "name": "Sahibinden",
+  "projectId": "dac73f26-1bbc-4929-b64f-198d5577a66f",
+  "description": "Navigate to Sahibinden, search for an ad and fetch data from its related fields. E.g: Username, Ad Title and Price.",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[25.6.1]"
+    "UiPath.Excel.Activities": "[3.2.0-preview]",
+    "UiPath.Python.Activities": "[2.0.0-preview]",
+    "UiPath.System.Activities": "[25.6.1]",
+    "UiPath.UIAutomation.Activities": "[25.10.12]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -42,11 +45,11 @@
     "fileInfoCollection": [],
     "saveToCloud": false
   },
-  "expressionLanguage": "VisualBasic",
+  "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "ac281c96-53d4-4e95-9c13-a544f7d28aa5",
+      "uniqueId": "9f5077eb-2021-4742-81fc-ad43571df9ca",
       "input": [],
       "output": []
     }

@@ -3,6 +3,7 @@
 
 # But don’t ignore these:
 !*.xaml
+!Main.xaml.json
 !project.json
 !assets/
 !assets/**
