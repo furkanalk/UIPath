@@ -68,7 +68,7 @@ We use the following Git branching model:
 
 **Daily workflow**:
 
-1. Checkout `develop` and pull latest changes
+1. Checkout `dev` and apply latest changes
 2. Create and work on `daily/$(date +%F)` branch
-3. Commit and push your changes daily
-4. At end of day, merge `daily/YYYY-MM-DD` into `develop` via PR or merge
+3. Merge your changes daily
+4. Commit `daily/YYYY-MM-DD`
