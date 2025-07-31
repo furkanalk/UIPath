@@ -11,7 +11,8 @@ This repository contains the UiPath workflows, assets and configurations for the
   - [Getting Started](#getting-started)
   - [Folder Structure](#folder-structure)
   - [Branching Strategy](#branching-strategy)
-
+  - [Daily Exercise: Sahibinden Scraping](#daily-exercise-sahibinden-scraping)
+  
 ## Project Overview
 
 This project includes a collection of UiPath workflows demonstrating exercises of each day.
@@ -72,3 +73,7 @@ We use the following Git branching model:
 2. Create and work on `daily/$(date +%F)` branch
 3. Merge your changes daily
 4. Commit `daily/YYYY-MM-DD`
+
+## Daily Exercise: Sahibinden Scraping
+
+This automation searches Sahibinden.com for a specified listing, clicks the first matching result, extracts its title, price, and owner information, appends these details to an Excel file (assets/output.xlsx), and then closes the browser.
