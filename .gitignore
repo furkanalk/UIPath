@@ -14,3 +14,8 @@
 
 # Keep the .gitignore itself
 !.gitignore
+
+# Ignore specific file types
+*.tmp
+*logs/
+*.log
