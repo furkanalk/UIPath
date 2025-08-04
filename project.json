@@ -1,10 +1,15 @@
 {
-  "name": "Biletix",
-  "projectId": "663d7505-3061-4ad0-bb5b-cde5ecd62607",
-  "description": "Biletix project",
+  "name": "Sahibinden_linq",
+  "projectId": "92498839-2801-41bd-8ac7-bfa6dd3d15d1",
+  "description": "Sahibinden project with LinQ.",
   "main": "Main.xaml",
   "dependencies": {
+    "System.Data.SQLite": "[1.0.119]",
+    "System.Linq": "[4.3.0]",
+    "System.Xml.ReaderWriter": "[4.3.1]",
+    "System.Xml.XmlSerializer": "[4.3.0]",
     "UiPath.Excel.Activities": "[3.2.0-preview]",
+    "UiPath.Mail.Activities": "[2.3.0-preview]",
     "UiPath.System.Activities": "[25.6.1]",
     "UiPath.UIAutomation.Activities": "[25.10.12]"
   },
@@ -48,7 +53,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "ca9017b5-b9c6-45bb-abc6-b95a66f54ef0",
+      "uniqueId": "41feda82-9d2e-45f7-b43e-d8eb62aea78b",
       "input": [],
       "output": []
     }
