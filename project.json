@@ -1,17 +1,13 @@
 {
-  "name": "Sahibinden_linq",
-  "projectId": "92498839-2801-41bd-8ac7-bfa6dd3d15d1",
-  "description": "Sahibinden project with LinQ.",
+  "name": "WeatherAutomation",
+  "projectId": "3170dc4d-74bc-4b03-a810-6e84c362d4ed",
+  "description": "Fetches and processes weather data from the MGM website",
   "main": "Main.xaml",
   "dependencies": {
-    "System.Data.SQLite": "[1.0.119]",
-    "System.Linq": "[4.3.0]",
-    "System.Xml.ReaderWriter": "[4.3.1]",
-    "System.Xml.XmlSerializer": "[4.3.0]",
     "UiPath.Excel.Activities": "[3.2.0-preview]",
-    "UiPath.Mail.Activities": "[2.3.0-preview]",
     "UiPath.System.Activities": "[25.6.1]",
-    "UiPath.UIAutomation.Activities": "[25.10.12]"
+    "UiPath.UIAutomation.Activities": "[25.10.12]",
+    "UiPath.WebAPI.Activities": "[2.0.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -49,11 +45,11 @@
     "fileInfoCollection": [],
     "saveToCloud": false
   },
-  "expressionLanguage": "CSharp",
+  "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "41feda82-9d2e-45f7-b43e-d8eb62aea78b",
+      "uniqueId": "ec8a2be2-b9d1-4e02-9ac4-7e470722aeea",
       "input": [],
       "output": []
     }
