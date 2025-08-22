@@ -1,23 +1,22 @@
 {
-  "name": "Sahibinden_linq",
-  "projectId": "92498839-2801-41bd-8ac7-bfa6dd3d15d1",
-  "description": "Sahibinden project with LinQ.",
+  "name": "VBM_ReframeworkTemplate_Dispatcher",
+  "projectId": "37ff0c18-a4d3-477a-8afd-6e1b667e6e46",
+  "description": "",
   "main": "Main.xaml",
   "dependencies": {
-    "System.Data.SQLite": "[1.0.119]",
-    "System.Linq": "[4.3.0]",
-    "System.Xml.ReaderWriter": "[4.3.1]",
-    "System.Xml.XmlSerializer": "[4.3.0]",
+    "UiPath.Credentials.Activities": "[3.0.0]",
     "UiPath.Excel.Activities": "[3.2.0-preview]",
-    "UiPath.Mail.Activities": "[2.3.0-preview]",
+    "UiPath.Mail.Activities": "[1.23.10]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.6.25]",
     "UiPath.System.Activities": "[25.6.1]",
-    "UiPath.UIAutomation.Activities": "[25.10.12]"
+    "UiPath.UIAutomation.Activities": "[25.10.13]",
+    "UiPath.WebAPI.Activities": "[1.21.0]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "25.0.172.0",
-  "projectVersion": "1.0.0",
+  "studioVersion": "19.10.1.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -25,7 +24,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "NewtonsoftJson",
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -33,7 +32,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true,
+    "mustRestoreAllDependencies": false,
     "pipType": "ChildSession"
   },
   "designOptions": {
@@ -47,13 +46,14 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
+    "modernBehavior": false,
     "saveToCloud": false
   },
-  "expressionLanguage": "CSharp",
+  "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "41feda82-9d2e-45f7-b43e-d8eb62aea78b",
+      "uniqueId": "9dc66fda-e193-4979-be43-943175e70c39",
       "input": [],
       "output": []
     }
