@@ -11,6 +11,12 @@
 !tests/**
 !workflows/
 !workflows/**
+!CustomProcesses/
+!CustomProcesses/**
+!Framework/
+!Framework/**
+!Documents/
+!Documents/**
 
 # Keep the .gitignore itself
 !.gitignore
